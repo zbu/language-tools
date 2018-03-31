@@ -20,7 +20,7 @@ class lingtools:
         if ctx.invoked_subcommand is None:
             await send_cmd_help(ctx)
     @_latin.command()
-    async def normal(self, ctx, word):
+    async def normal(self, word):
         #Your code will go here
         url = "http://archives.nd.edu/cgi-bin/wordz.pl?english=" + word #build the web adress
         async with aiohttp.get(url) as response:
@@ -32,7 +32,7 @@ class lingtools:
         except:
             await self.bot.say("Word doesn't exist.")
     @_latin.command()
-    async def reverse(self, ctx, word):
+    async def reverse(self, word):
         #Your code will go here
         url = "http://http://archives.nd.edu/cgi-bin/wordz.pl?keyword=" + word #build the web adress
         async with aiohttp.get(url) as response:
