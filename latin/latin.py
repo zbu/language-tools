@@ -13,7 +13,7 @@ class lingtools:
     def __init__(self, bot):
         self.bot = bot
 
-    @commands.group(name="latin", pass_context-True)
+    @commands.group(name="latin", pass_context=True)
     async def _latin(self, ctx):
         """Translates from English to Latin"""
         
