@@ -32,4 +32,4 @@ class lingtools:
             await self.bot.say("Word doesn't exist.")
 
 def setup(bot):
-bot.add_cog(lingtools(bot))
+    bot.add_cog(lingtools(bot))
