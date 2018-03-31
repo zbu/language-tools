@@ -26,6 +26,7 @@ class lingtools:
             text2 = text.split(' ')[0]
             if ',' in text2:
                 text2 = text.split(',')[0]
+                await self.bot.say(text2)
             else:
                 await self.bot.say(text2)
         except:
