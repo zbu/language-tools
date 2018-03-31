@@ -18,13 +18,12 @@ class lingtools:
         """Translates from English to Spanish"""
 
         #Your code will go here
-        url = "https://www.wordreference.com/es/translation.asp?tranword=" + word #build the web adress
+        url = "http://www.spanishdict.com/translate/" + word #build the web adress
         async with aiohttp.get(url) as response:
             soupObject = BeautifulSoup(await response.text(), "html.parser")
         try:
-            text = soupObject.find(class_='ToWrd').get_text()
-            text2 = text.split(' ')[1]
-            await self.bot.say(text2)
+            text = soupObject.find(class_='lang').get_text()
+            await self.bot.say(text)
         except:
             await self.bot.say("Word not indexed.")
 
