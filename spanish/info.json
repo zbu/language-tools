@@ -1,0 +1,10 @@
+{
+    "AUTHOR" : "Language Tools",
+    "INSTALL_MSG" : "Translate to Spanish",
+    "NAME" : "lingtools",
+    "SHORT" : "Translate to Spanish",
+    "DESCRIPTION" : "This commands lets you translate to spanish.",
+    "TAGS" : ["example", "tags", "list"],
+    "REQUIREMENTS" : ["tabulate", "Pillow"],
+    "HIDDEN" : false
+}
