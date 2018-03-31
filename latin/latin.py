@@ -16,7 +16,7 @@ class lingtools:
     @commands.group(name="latin", pass_context=True)
     async def _latin(self, ctx):
         """Translates from English to Latin"""
-        
+
         if ctx.invoked_subcommand is None:
             await send_cmd_help(ctx)
     @_latin.command()
@@ -39,7 +39,7 @@ class lingtools:
             soupObject = BeautifulSoup(await response.text(), "html.parser")
         try:
             text = soupObject.find('pre').get_text()
-            text2 = text.split(']')[1]
+            text2 = text.split('X]')[1]
             text3 = text2.split(',')[0]
             await self.bot.say(text3)
         except:
