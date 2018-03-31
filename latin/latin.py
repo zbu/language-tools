@@ -7,14 +7,14 @@ except:
     soupAvailable = False
 import aiohttp
 
-class nsextras:
-    """NS Extras"""
+class lingtools:
+    """Ling Tools"""
 
     def __init__(self, bot):
         self.bot = bot
 
     @commands.command()
-    async def rmbpost(self, word):
+    async def latin(self, word):
         """Translates from English to Latin"""
 
         #Your code will go here
