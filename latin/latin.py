@@ -40,7 +40,7 @@ class lingtools:
         try:
             text = soupObject.find('pre').get_text()
             text2 = text.split(']')[1]
-	        text3 = text2.split(',')[0]
+            text3 = text2.split(',')[0]
             await self.bot.say(text3)
         except:
             await self.bot.say("Word doesn't exist.")
