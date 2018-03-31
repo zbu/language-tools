@@ -23,7 +23,7 @@ class lingtools:
             soupObject = BeautifulSoup(await response.text(), "html.parser")
         try:
             text = soupObject.find(class_='ToWrd').get_text()
-            text2 = text.split(' ')[0]
+            text2 = text.split(' ')[1]
             await self.bot.say(text2)
         except:
             await self.bot.say("Word not indexed.")
