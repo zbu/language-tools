@@ -1,9 +1,9 @@
 {
     "AUTHOR" : "Language Tools",
-    "INSTALL_MSG" : "Translate to Latin",
+    "INSTALL_MSG" : "Translate to Hilindua",
     "NAME" : "lingtools",
-    "SHORT" : "Translate to Latin",
-    "DESCRIPTION" : "This commands lets you translate to latin.",
+    "SHORT" : "Translate to Hilindua",
+    "DESCRIPTION" : "This commands lets you translate to hilindua.",
     "TAGS" : ["example", "tags", "list"],
     "REQUIREMENTS" : ["tabulate", "Pillow"],
     "HIDDEN" : false
