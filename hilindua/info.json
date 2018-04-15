@@ -1,0 +1,10 @@
+{
+    "AUTHOR" : "Language Tools",
+    "INSTALL_MSG" : "Translate to Latin",
+    "NAME" : "lingtools",
+    "SHORT" : "Translate to Latin",
+    "DESCRIPTION" : "This commands lets you translate to latin.",
+    "TAGS" : ["example", "tags", "list"],
+    "REQUIREMENTS" : ["tabulate", "Pillow"],
+    "HIDDEN" : false
+}
