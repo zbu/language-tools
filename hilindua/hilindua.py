@@ -1,7 +1,7 @@
 import discord
 from discord.ext import commands
 
-defined = {'the': 'autrev', 'me': 'till', 'hello': 'auztlav', 'goodbye': 'nurvænt', 'and': 'vvil', 'i': 'ñuvely', 'we': 'ñuveli', 'you': 'ñuvemn', 'you (plural)': 'ñuvenm', 'you (pl)': 'ñuvenm', 'he': 'ñuvert', 'she': 'ñuvert', 'it': 'ñuvert', 'they': 'ñuvetr', 'everyone': 'ñuve', 'there': 'žoreal', 'their': 'žoremv', "they're": 'ñuvetržo', 'home': 'heiyuma', 'language': 'lindua'}
+defined = {'the': 'autrev', 'me': 'till', 'hello': 'auztlav', 'goodbye': 'nurvænt', 'and': 'vvil', 'i': 'ñuvely', 'we': 'ñuveli', 'you': 'ñuvemn', 'you (plural)': 'ñuvenm', 'you (pl)': 'ñuvenm', 'he': 'ñuvert', 'she': 'ñuvert', 'it': 'ñuvert', 'they': 'ñuvetr', 'everyone': 'ñuve', 'there': 'žoreal', 'their': 'žoremv', "they're": 'ñuvetržo', 'home': 'heiyuma', 'language': 'lindua', 'good': 'ǵqius', 'bad': 'byutzzi', 'happy': 'ǵquzo', 'sad': 'byuzo', 'excited': 'ǵquli', 'ecstatic': 'ǵquli', 'angry': 'byuli', 'homosexual': 'yzzer', 'gay': 'yzzer', 'heterosexual': 'zzasd', 'straight': 'zzasd'}
 
 class lingtools:
     """Ling Tools"""
